@@ -1,0 +1,28 @@
+{
+	"name": "TrackPlayerDemo",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.48.4",
+		"react-native-track-player": "github:react-native-kit/react-native-track-player#dev",
+		"react-native-windows": "^0.48.0-rc.9",
+		"react-redux": "^5.0.6",
+		"redux": "^3.7.2",
+		"redux-thunk": "^2.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0-alpha.12",
+		"rnpm-plugin-windows": "^0.2.8"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
